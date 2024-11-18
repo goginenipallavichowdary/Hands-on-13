@@ -1,9 +1,9 @@
 from collections import defaultdict
 
 def perform_topological_sort(directed_graph):
-    # Set to track nodes that have been visited
+    
     explored = set()
-    # List to store nodes in topological order
+    
     result_stack = []
 
    
